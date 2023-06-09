@@ -1,0 +1,11 @@
+name: SensitivityFinder
+version: '${project.version}'
+main: io.michaelsimmons.sensitivityfinder.SensitivityFinder
+api-version: 1.19
+authors: [ michael ]
+description: A simple plugin to find a player's sensitivity
+website: website
+commands:
+  sensitivity:
+    description: find a user's sensitivity
+    permission: sensitivity.admin
